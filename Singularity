@@ -17,8 +17,8 @@ mkdir -p /code
 cd /code
 apt update
 apt install vim make libnetcdff-dev git gfortran netcdf-bin nano zlib1g -y -f -m
-git clone git@gitlab.com:jormelton/classctem.git
-cd classctem
+git clone git@github.com:jormelton/CLASSIC.git
+cd CLASSIC
 make
 cd ..
-chmod -R 777 classctem
+chmod -R 777 CLASSIC
